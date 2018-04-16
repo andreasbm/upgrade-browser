@@ -1,7 +1,7 @@
 {
 	"name": "@appnest/upgrade-browser",
 	"description": "A simple customizable HTML file to show to users that should upgrade their browser",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"author": "Appnest",
 	"bugs": {
 		"url": "https://github.com/andreasbm/upgrade-browser/issues"
