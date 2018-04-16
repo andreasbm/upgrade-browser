@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Upgrade Browser (demo)</title>
+</head>
+<body>
+
+<p>Only show this if CSS grids and custom elements are supported.</p>
+
+<script type="text/javascript">
+	(function () {
+		var supportsGrid = ("grid-column" in document.documentElement.style || "msGridColumn" in document.documentElement.style);
+		var supportsCustomElements = ("customElements" in window);
+		var supported = supportsCustomElements && supportsGrid;
+
+		// Show the upgrade-browser dialog if the browser is not supported
+		if (!supported) {
+			window.location = "upgrade-browser.html?nofirefox&noopera";
+		}
+	})();
+</script>
+</body>
+</html>
