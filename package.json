@@ -1,7 +1,7 @@
 {
 	"name": "@appnest/upgrade-browser",
 	"description": "A simple customizable HTML file to show users that should upgrade their browser",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"scripts": {
 		"bump:patch": "npm version patch && git add . && git commit --no-edit --amend --no-verify",
 		"bump:minor": "npm version minor && git add . && git commit --no-edit --amend --no-verify",
