@@ -1,6 +1,6 @@
 # Upgrade Browser
 
-This repository contains a simple `upgrade-browser.html` you can show to your visitors if their browser is not supported. The buttons and download links for the following browsers will be shown: `"chrome", "edge", "firefox", "opera", "safari"`.
+This repository contains a simple `upgrade-browser.html` you can show to your visitors if their browser is not supported. The buttons and download links for the following browsers will be shown: `chrome`, `edge`, `firefox`, `opera`, `safari`.
 
 ![Example 1](https://github.com/andreasbm/upgrade-browser/blob/master/example-1.png)
 
@@ -45,7 +45,7 @@ As seen in the above code at `window.location = "upgrade-browser.html?nofirefox&
 
 You are also able to specify a `title`, a `subtitle` and a `backgroundColor` as a hex without the `#`.
 
-```
+```javascript
 ...
 window.location = "upgrade-browser.html?title=No Support&subtitle=Our app does not support your browser. Please install another&backgroundColor=000000";
 ...
